@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+    
+    <head>
+        <meta charset="UTF-8">
+        <meta name="description" content="Inserir formulários e vídeos">
+        <meta name="keywords" content="Formulários em HTML, Vídeos em html">
+        <meta name="author" content="Marcel Pinotti">
+        <meta http-equiv="refresh" content="30">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Fomulários e Vídeos em HTML</title>
+    </head>
+    
+    <body>
+        <header>
+          <h1>Estudando Formulário</h1><hr>
+            
+            <p>Para a criação de um formulário precisamos abrir e fechar a tag "form". Os <strong>formulários</strong> servem para coletar dados do cliente e fazer algum tipo de processamento no servidor.</p>
+            <p>Os atributos <strong>"name"</strong> e <stro>"method"</stro> são desenvolvidos do lado do servidor, e servem para submeter as informações.</p>
+            <p> Todos os elementos de um formulário são precedidos da tag "input", e da tag "type", para determinar qual informação será coletada e qual tipo de formulário será utilizado.</p>
+            
+            <h3>Fomulário simples</h3>
+            <p> Os tipos (types) coletam informações como nome, senha, email e url.</p>
+            <form name="form1" method="post" action="">
+            Nome:<input type="text" name="nome"/>
+            Senha:<input type="password" name="senha"/>
+            Email:<input type="email" name="email"/>
+            Url: <input type="url" name="homepage"/>
+            <input type="submit" value="Enviar"/><!--Botão submiter-->
+            <p> O tipo "submit" pega altomaticamente todos os elementos que estão dentro do formulário e submete as informações para o servidor. O atributo "value" é a informação que aparecerá no botão.</p>
+                
+            <hr>
+
+            <h3>Formulário checkbox</h3>
+            <p>O formulário do tipo <strong>Checkbox</strong> é um formulário de seleção de informações através de caixas de marca e desmarca. Esse tipo de formulário permite que seja selecionado mais de uma opção.</p>
+            <input type="checkbox" name="exercício" value="Aeróbio"/>Aeróbio<br/>
+            <input type="checkbox" name="exercício" value="Musculação"/>Musculação<hr>
+
+            <h3>Criar um botão</h3>
+            <p>Outro tipo de botão é o <strong>button</strong> nele é necessário associar uma programação do lado para que as informações sejam tratadas e submetidas para o servidor.</p>
+            <input type="button" value="Clique aqui" onclick="alert('oi')"/><hr>
+
+            <h3>Escolha de arquivo para enviar</h3>
+            <p>Através do tipo <strong>file</strong> é possível escolher um arquivo para anexar como informação. Esse tipo habilita uma caixa de seleção para anexar o arquivo.</p>
+            <p>A programação é feitad lado do servidor para recuperar o arquivo. </p>
+            <input name="arquivo" type="file"/><hr>
+
+            <h3>Personalizando o botão</h3>
+            <p>É possivel utilizar imagens para criar botões, através do tipo <strong>image</strong>.</p>
+            <input name="imagem" type="image" src="\Users\Viviane\Desktop\workspace\ws-html-css\htmlCssFaculdade\html\pixel-cat.png"/><hr>
+
+            <h3>Formulário Radio Button</h3>
+            <p>O formulário que utiliza o tipo <strong>radio</strong> é parecido com o tipo checkbox, as diferenção que o tipo radio só permite a seleleção de um item e quando selecionado não permite a desmarcação, só a troca de opção.</p>
+            <input type="radio" name="sexo" value="F"/>Feminino<br/>
+            <input type="radio" name="sexo" value="M"/>Masculino<hr>
+        
+        </form>
+        
+        </header>
+    
+    </body>
+
+</html>

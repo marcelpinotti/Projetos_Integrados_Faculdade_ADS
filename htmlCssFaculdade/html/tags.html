@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+    
+    <head>
+        <meta charset="UTF-8">
+        <meta name="description" content="Vendo as principais TAGS">
+        <meta name="keywords" content="HTML parágrafo, listas, tabelas, imagens, hiperlinks">
+        <meta name="author" content="Marcel Pinotti">
+        <meta http-equiv="refresh" content="30">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Parágrafos, Lista, Tabelas, Imagens, Hiperlinks</title>
+    </head>
+
+    <body>
+        <header>
+            <h1>Nesta página serão apresentadas as tags de parágrafo, tabelas, listas e seus tipos, imagens, hiperlinks, entre outras tags.</h1>
+            <hr><!---Faz um traço na página dividindo os conteúdos e elementos-->
+        </header>
+        
+        <article>
+            <p>A tag "p" é a tag que faz a demarcação de um parágrafo, quando é necessário fazer uma quebra de linha utiliza-se a tag "br".</p>
+            <pre>
+A tag "pre" é uma tag que faz a quebra de linha quando
+é dado enter no texto digitado, então essa tag serve para 
+inserir quebras ao texto sem precisar usar a tag "br".
+            </pre><hr>
+            
+            <h3>Listas Ordenadas e Não ordenadas</h3>
+            
+            <p>As listas ordenadas apresentam marcações numéricas, alfabéticas, etc, antes os itens. Tag de abertura e fechamento da lista "ol", Tag representando o item "il". </p>
+            <p>As listas não ordenadas apresentam marcadores na frente dos itens. Tad de abertura e fechamento da lista "ul", tag representando o item "il".</p>
+            <p><strong>Lista Ordenada</strong></p>
+            <ol><!--Listas Ordenadas-->
+                <li>Item 1</li>
+                <li>Item 2</li>
+            </ol>
+            <p><strong>Lista Não Ordenada</strong></p>
+            <ul><!--Listas Não Ordenadas-->
+                <li>Item 3</li>
+                <li>Item 4</li>
+            </ul><hr>
+            
+            <h3>Tabelas</h3>
+            
+            <p>As tabelas antigamente eram utilizadas para fazer o layout (organização) das páginas, hoje em dia são utlizadas apenas para tabulação.</p>
+            <p>As tabelas são abertas e fechadas pela tag "table", as linhas são representadas pela tag "tr" e as colunas são representadas pela tag "td". A tag da linha sempre antecede a tag das colunas.</p>
+            
+            <table>
+                <tr>
+                    <td><strong>Nome</strong></td><!--Tag Strong formata em negrito-->
+                    <td><strong>Idade</strong></td>
+                    <td><strong>Gênero</strong></td>
+                </tr>
+                <tr>
+                    <td><em>Marcel Pinotti</em></td>
+                    <td>39 anos</td>
+                    <td>Masculino</td>
+                </tr>
+                <tr>
+                    <td><em>Viviane Varges Pinotti</em></td>
+                    <td>38 anos</td>
+                    <td>Feminino</td>
+                </tr>
+                <tr>
+                    <td><em>Marry Varges Pinotti</em></td>
+                    <td>2 anos</td>
+                    <td>Feminino</td>
+                </tr>             
+            </table><hr>
+            
+            <h3>Imagens (Referências Absolutas e Referências Relativas)</h3>
+            
+            <p><strong>Referência Absoluta</strong> é a referência que inclui todo o caminho do arquivo. Usada quando o arquivo referenciado não faz parte
+            da página construída</p>
+            <p><strong>Referência Relativa</strong> é a referência expressa através de um diretório. Usada quando o diretório é conhecido dentro da mesma página.</p>
+            <p>A tag das imagens é a "img" tendo como atributo o "src". Utiliza-se o atributo "alt" para caso ocorra algum erro no carregamento da imagem apareça uma descrição da imagem. Não deve-se passar o diretório onde a imagem está salva.</p>
+            
+            <p><em>Imagem com referência absoluta - GATO BRANCO</em></p>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTLFwbmg0VrtzRIGMRu_1nNvy2ulbzH0MPuVg&usqp=CAU" alt="Imagem de um gato branco">
+            <p><em>Imagem com referência relativa - GATO PRETO</em></p>
+            <img src="\Users\Viviane\Desktop\workspace\ws-html-css\htmlCssFaculdade\html\pixel-cat.png" alt="Imagem de um gato preto">
+            <hr>
+            
+            <h3>Hiperlinks</h3>
+            <p>O <strong>Os Hiperlinks são utilizados para acessar um aquivo dentro da própria página ou em outra página</strong></p>
+            <p> A tag dos hiperlinks é "a", o atributo é o "href" para instanciar o caminho do arquivo e atributo "target" com "_blank" para abrir uma outra página no navegador e não sobrepor a página atual.</p>
+            
+            <p>Vinculando a página da <a href="https://www.w3schools.com/tags/tag_a.asp" target="_blank">W3scholls</a> ao texto, usando uma referência da internet.</p>
+            <p>Vinculando a <a href="../estrutura.html" target="_blank">Página Elementos</a> do mesmo diretório da página atual.</p>
+            <p>Viculando um <a href="mailto:mmmmmmmmmm@gmail.com">email</a></p>
+            <p>Viculando um <a href="tel:+5511999999999">celular</a></p>
+            <p>Vincular a um JavaScript <a href="javascript:alert('Hello Word';)"></a>Executando JavaScript</p>
+            <p>Vinculando uma imagem como Hiperlink<br><a href="https://www.w3schools.com"><img src="pixel-arrow.png" border="3" alt="W3Schools" width="100" height="100"></a></p>
+        </article>
+        
+    </body>
+
+</html>
