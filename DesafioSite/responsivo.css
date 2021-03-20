@@ -1,0 +1,195 @@
+@media screen and (min-width: 0){ /*formatação para celulares*/
+    .conteudo__um{
+        grid-column: 1 / 4;
+        grid-row: 1 / 1;
+      }
+   
+    .conteudo__dois:nth-child(2){
+        grid-column: 1 / 4;
+        grid-row: 2 / 3;
+      }
+        
+    .conteudo__tres:nth-child(3){
+        grid-column: 1 / 4;
+        grid-row: 3 / 4;
+    }
+        
+    .conteudo__quatro:nth-child(4){
+        grid-column: 1 / 4;
+        grid-row: 4 / 5;
+    }
+
+    .conteudo1{
+        display: grid;
+        grid-template-columns: 33.33% 33.33% 33.33%;
+    }
+
+    .conteudo1__aside1:nth-child(1){
+        grid-column: 1 / 4;
+        grid-row: 1 / 2;    
+    }
+  
+    .conteudo1__aside2:nth-child(2){
+        grid-column: 1 / 4;
+        grid-row: 2 / 3;
+    }
+
+    table, td, th{
+        font-size: 10px;
+      }
+  
+    .conteudo1__aside3:nth-child(3){
+        grid-column: 1 / 4;
+        grid-row: 3 / 5;
+    }
+
+    .conteudo1__alura{
+        width: 95px;
+    }    
+      
+    .conteudo1__cursoemvideo{
+        width: 140px;
+    }
+      
+    .conteudo1__digitalinnovationone{
+        width: 140px;
+    }
+      
+    .conteudo1__workover{
+        width: 140px;
+    }
+}
+
+@media screen and (min-width: 760px){ /*formatação para tablets*/
+    .conteudo__um{
+        grid-column: 1 / 4;
+        grid-row: 1 / 2;
+     }
+   
+    .conteudo__dois:nth-child(2){
+        grid-column: 1 / 2;
+        grid-row: 2 / 3;
+    }
+        
+    .conteudo__tres:nth-child(3){
+        grid-column: 2 / 3;
+        grid-row: 2 / 3;
+    }
+        
+    .conteudo__quatro:nth-child(4){
+        grid-column: 3 / 4;
+        grid-row: 2 / 5;
+    }
+
+    .conteudo1{
+        display: grid;
+        grid-template-columns: 33.33% 33.33% 33.33%;
+    }
+
+    .conteudo1__aside1:nth-child(1){
+        grid-column: 1 / 4;
+        grid-row: 1 / 2;    
+    }
+  
+    .conteudo1__aside2:nth-child(2){
+        grid-column: 1 / 4;
+        grid-row: 2 / 3;
+    }
+
+    table, td, th{
+        font-size: 10px;
+      }
+  
+    .conteudo1__aside3:nth-child(3){
+        grid-column: 1 / 4;
+        grid-row: 3 / 5;
+    }
+
+    .conteudo1__alura{
+        width: 95px;
+    }    
+      
+    .conteudo1__cursoemvideo{
+        width: 140px;
+    }
+      
+    .conteudo1__digitalinnovationone{
+        width: 140px;
+    }
+      
+    .conteudo1__workover{
+        width: 140px;
+    }
+}
+
+
+@media screen and (min-width: 992px){ /*formatação para desktops mais atingos*/
+    
+}
+
+@media screen and (min-width: 1200px){ /*fomataçao para desktops mais novos e tvs*/
+    
+    .menu__link:hover{
+        border-bottom: 2px solid rgb(255, 255, 255);
+    }
+
+    .conteudo__um{
+        grid-column: 1 / 4;
+        grid-row: 1 / 2; 
+      }
+    
+    
+    .conteudo__dois:nth-child(2){
+        grid-column: 1 / 2;
+        grid-row: 2 / 5; 
+      }
+        
+    .conteudo__tres:nth-child(3){
+        grid-column: 2 / 3;
+        grid-row: 2 / 5;
+    }
+        
+    .conteudo__quatro:nth-child(4){
+        grid-column: 3 / 4;
+        grid-row: 2 / 5;
+    }
+
+    .conteudo1{
+        grid-template-columns: 20% 20% 20% 20% 20%;
+    }
+      
+    .conteudo1__aside1:nth-child(1){
+        grid-column: 1 / 2;
+        grid-row: 1 / 5;    
+    }
+      
+    .conteudo1__aside2:nth-child(2){
+        grid-column: 2 / 4;
+        grid-row: 1 / 5;
+    }
+
+    table, td, th{
+        font-size: 18px;
+      }
+      
+    .conteudo1__aside3:nth-child(3){
+        grid-column: 4 / 6;
+        grid-row: 1 / 5;
+    }
+
+    .conteudo1__alura{
+        width: 120px;
+    }    
+      
+    .conteudo1__cursoemvideo{
+        width: 230px;
+    }
+      
+    .conteudo1__digitalinnovationone{
+        width: 230px;
+    }
+      
+    .conteudo1__workover{
+        width: 230px;
+    }
+}

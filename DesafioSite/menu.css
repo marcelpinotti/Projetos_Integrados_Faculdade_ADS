@@ -1,0 +1,14 @@
+.menu__lista{
+    list-style: none;
+}
+
+.menu__link{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    padding:10px;
+    text-align:center;
+}
+
+.menu__link:hover{
+    color: rgb(163, 208, 245);
+}

@@ -1,0 +1,9 @@
+table, td, th{
+    border: 2px solid rgba(255, 255, 255);
+    border-collapse: collapse;
+    border-spacing: 0px;
+    text-align: center;
+    width: 100%;
+    color: rgb(163, 208, 245);
+    background: rgba(36, 0, 107, 0.473);
+  }
