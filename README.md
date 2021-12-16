@@ -8,13 +8,13 @@ Esse repositório foi criado para guardar e apresentar meus projeto para faculda
 
   - Produzir uma página responsiva com os conteúdos da matéria Aplicações para internet:
 
-    [Projeto - Aplicações para internet] (https://github.com/marcelpinotti/Projetos_Integrados_Faculdade_ADS/tree/main/ProjetoSite-HTML-CSS-GRIDLAYOUT-FLEXBOX )
+    [Projeto - Aplicações para internet](https://github.com/marcelpinotti/Projetos_Integrados_Faculdade_ADS/tree/main/ProjetoSite-HTML-CSS-GRIDLAYOUT-FLEXBOX )
 
     
 
   - Produzir uma calculadora binária utilizando Scratch da matéria Projeto Integrado (adaptei o projeto para a linguagem Java):
 
-    [Projeto - Calculadora binária] (https://github.com/marcelpinotti/Projetos_Integrados_Faculdade_ADS/tree/main/Projeto_Calculadora_Binaria_JAVA)
+    [Projeto - Calculadora binária](https://github.com/marcelpinotti/Projetos_Integrados_Faculdade_ADS/tree/main/Projeto_Calculadora_Binaria_JAVA)
 
     
 
@@ -22,5 +22,5 @@ Esse repositório foi criado para guardar e apresentar meus projeto para faculda
 
   - Produzir um MER (Modelo Entidade Relacionamento) da matéria Projeto Integrado:
 
-    [Projeto - MER] (https://github.com/marcelpinotti/Projetos_Integrados_Faculdade_ADS/tree/main/Pojeto-Diagrama_DER]
+    [Projeto - MER](https://github.com/marcelpinotti/Projetos_Integrados_Faculdade_ADS/tree/main/Pojeto-Diagrama_DER)
 
